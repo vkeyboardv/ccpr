@@ -1,0 +1,23 @@
+{
+  "name": "ccpr",
+  "version": "1.0.0",
+  "description": "CodeCommit Pull Request URL hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "bin": {
+    "ccpr": "./index.js"
+  },
+  "author": "vkeyboardv",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "open": "^8.0.6",
+    "yargs": "^16.2.0"
+  }
+}
